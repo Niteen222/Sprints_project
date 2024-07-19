@@ -8,8 +8,6 @@ import img from './image.png'
 function Dashboard() {
     return (
         <>
-            <Navbar />
-            <Second />
             <div className="container-fluid">
                 <div className="row">
                     <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary">
@@ -273,7 +271,6 @@ function Dashboard() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

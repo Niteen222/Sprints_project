@@ -12,10 +12,15 @@ import Massage from './component/Massage/Massage';
 import Overview from './component/Overview/Overview';
 import List from './component/List/List';
 import Timeline from './component/Timeline/Timeline'
+import Navbar from './component/Navbar/Navbar';
+import Second from './component/Navbar/Second';
+import Footer from './component/Content/Footer';
 function App() {
   return (
     <>
       <Router>
+        <Navbar/>
+        <Second/>
         <Routes>
           <Route path='/list' element={<List/>}/>
           <Route path='/board' element={<Content/>}/>
@@ -25,6 +30,7 @@ function App() {
           <Route path='/messages' element={<Massage/>}/>
           <Route path='/overview' element={<Overview/>}/>
         </Routes>
+        <Footer/>
       </Router>
     </>
   )

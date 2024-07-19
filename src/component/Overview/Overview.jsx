@@ -6,8 +6,6 @@ import Footer from '../Content/Footer'
 function Overview() {
     return (
         <>
-        <Navbar/>
-        <Second/>
             <div className="container mt-5">
                 <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
                     <div class="col-lg-6 px-0">
@@ -96,7 +94,6 @@ function Overview() {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </>
     )
 }

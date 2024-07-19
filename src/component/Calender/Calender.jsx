@@ -18,8 +18,6 @@ import Footer from '../Content/Footer'
 function Calender() {
     return (
         <>
-            <Navbar />
-            <Second />
             <div class="row py-lg-5 p-4">
                 <div class="col-lg-8 col-md-8 mx-auto">
                     <h1 class="fw-light">Calender</h1>
@@ -285,9 +283,7 @@ function Calender() {
                             </tr>
                         </tbody>
                     </table>
-                </div>
-                <Footer />
-            </div>
+                </div>            </div>
 
         </>
     )

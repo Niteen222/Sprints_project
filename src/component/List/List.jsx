@@ -7,8 +7,7 @@ import Footer from '../Content/Footer'
 function List() {
     return (
         <>
-            <Navbar />
-            <Second />
+
             <main class="container">
                 <div class="d-flex align-items-center p-3 my-3 text-black bg-purple rounded shadow-sm justify-content-between">
                     <div className='d-flex gap-3 align-items-center'>
@@ -237,7 +236,6 @@ function List() {
                     </small>
                 </div>
             </main>
-            <Footer/>
         </>
     )
 }

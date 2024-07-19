@@ -6,8 +6,6 @@ import Footer from '../Content/Footer';
 function Massage() {
     return (
         <>
-            <Navbar />
-            <Second />
             <div className="container">
                 <main>
                     <div className="py-5 text-center">
@@ -227,7 +225,6 @@ function Massage() {
                         </div>
                     </div>
                 </main>
-                <Footer />
             </div>
             <br />
             <br />

@@ -6,8 +6,6 @@ import Footer from '../Content/Footer'
 function Timeline() {
   return (
     <>
-      <Navbar />
-      <Second />
 
       <div className="container my-5">
         <h1 className='text-center'>Your Timeline Here</h1>
@@ -92,7 +90,6 @@ function Timeline() {
           </li>
         </ul>
       </div>
-      <Footer/>
     </>
   )
 }

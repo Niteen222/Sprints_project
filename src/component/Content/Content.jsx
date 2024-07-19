@@ -7,8 +7,6 @@ import Footer from './Footer';
 function Content() {
   return (
     <>
-    <Navbar/>
-    <Second/>
       <div className="d-flex flex-wrap gap-4 p-0 p-3 m-2">
         {/* First */}
         <div className="col justify-content-center my-2 ">
@@ -304,7 +302,6 @@ function Content() {
         </div>
         
       </div>
-      <Footer/>
     </>
   );
 }
