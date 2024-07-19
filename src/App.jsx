@@ -23,8 +23,9 @@ function App() {
         <Second/>
         <Routes>
           <Route path='/list' element={<List/>}/>
-          <Route path='/board' element={<Content/>}/>
+          <Route path='/' element={<Content/>}/>
           <Route path='/timeline' element={<Timeline/>}/>
+          <Route path='/calender' element={<Calender/>}/>
           <Route path='/calender' element={<Calender/>}/>
           <Route path='/dashboard' element={<Dashboard/>}/>
           <Route path='/messages' element={<Massage/>}/>

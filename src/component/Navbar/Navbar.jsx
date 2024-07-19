@@ -28,7 +28,7 @@ function Navbar() {
                             <a className="nav-link active" aria-current="page" href="#" > <Link to="/list" className="text-decoration-none text-reset">List</Link> </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#"><Link to="/board" className="text-decoration-none text-reset">Board</Link></a>
+                            <a className="nav-link active" aria-current="page" href="#"><Link to="/" className="text-decoration-none text-reset">Board</Link></a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#"><Link to="/timeline" className="text-decoration-none text-reset">Timeline</Link></a>
