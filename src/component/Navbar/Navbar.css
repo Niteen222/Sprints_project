@@ -1,0 +1,39 @@
+
+nav{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gainsboro;
+}
+#navbarSupportedContent{
+    /* display: flex; */
+    gap: 50px;
+    /* justify-content: space-between; */
+    margin-right:auto;
+}
+#circle{
+    cursor: pointer;
+}
+
+/* Second nav css */
+
+.all{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#top{
+    rotate: 90deg;
+}
+#field{
+    rotate: 90deg;
+}
+.cursor{
+    cursor: pointer;
+}
+#new-btn{
+    border-radius: 10px;
+}
+.nav-item:hover {
+    color: #F8FAE5;
+    border-bottom: 2px solid black;
+}

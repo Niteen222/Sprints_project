@@ -1,0 +1,14 @@
+body{
+    background-color:#f8f9fa;
+}
+.nav-link {
+    padding: 0.5rem 1rem;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .nav-link-active {
+    text-decoration: underline;
+    color: #000;
+  }
+  
